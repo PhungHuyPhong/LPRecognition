@@ -9,3 +9,6 @@ Model được train trong môi trường Pycharm trên Ubuntu 22.04.3LTS sử d
 ```bash
 yolo detect train model="yolov8n.pt" data="path/to/dataset/data.yaml" epochs=100 save=True plots=True amp=False workers=1 project="path/to/dir/to/save/your/results"
 ```
+
+Recognition:
+
